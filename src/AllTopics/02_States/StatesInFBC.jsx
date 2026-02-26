@@ -11,10 +11,10 @@ const StatesInFBC = ()=>{
     
     
 
-    if(count === 0)
+    if(count == 0)
     setData("Bye everone")
 
-    if(count === 1)
+    if(count > 0)
     alert("already update")
    }
 
