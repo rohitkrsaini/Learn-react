@@ -13,27 +13,27 @@ const App = () => {
     return (
         <>
 
-        {/* All Topic folder impot */}
-        
-        {/* <HeaderComp/>
+            {/* All Topic folder impot */}
+
+            {/* <HeaderComp/>
         <ClassBassed></ClassBassed>
         <StatesInFBC/> */}
-        {/* <ThemeChange/>
+            {/* <ThemeChange/>
         <Counter/> */}
 
 
 
-        {/* Practics folder import */}
+            {/* Practics folder import */}
 
-        {/* <CounterP/>
+            {/* <CounterP/>
         <ThemesP/>
         <ShowHideText/> */}
 
 
 
-        {/* Assiment folder import */}
+            {/* Assiment folder import */}
 
-        <StateTask1/>
+            <StateTask1 />
         </>
     )
 }
