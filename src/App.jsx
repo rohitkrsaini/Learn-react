@@ -7,25 +7,20 @@ import CounterP from "./Assimeant/Practics/CounterP"
 import ThemesP from "./Assimeant/Practics/ThemesP"
 import ShowHideText from "./Assimeant/Practics/ShowHideText"
 import StateTask1 from "./Assimeant/StateTask1"
-import StatesInCBC from "./AllTopics/02_States/StateInCBC"
-import PropsParent from "./AllTopics/03_Props/PropsParent"
 
 
 const App = () => {
     return (
         <>
 
-        {/* All Topic/02_State folder impot */}
+        {/* All Topic folder impot */}
         
         {/* <HeaderComp/>
         <ClassBassed></ClassBassed>
         <StatesInFBC/> */}
         {/* <ThemeChange/>
         <Counter/> */}
-        <StatesInCBC/>
-        
-        {/* AllTopic/03_props folder import */}
-        {/* <PropsParent/> */}
+
 
 
         {/* Practics folder import */}
@@ -38,7 +33,7 @@ const App = () => {
 
         {/* Assiment folder import */}
 
-        {/* <StateTask1/> */}
+        <StateTask1/>
         </>
     )
 }
