@@ -14,6 +14,7 @@ import Navbar from "./AllTopics/09_ReactCss/navbar"
 import TailwintsPratics1 from "./AllTopics/10_TailwinetCss/TailwintsPratice1"
 import PropP from "./AllTopics/03_Props/PropP"
 import ProDP from "./AllTopics/03_Props/ProDP"
+import UpliftingParent from "./AllTopics/04_StateUplifting/UpliftingParent"
 
 
 
@@ -32,8 +33,12 @@ const App = () => {
 
             {/* 03_Props floder import */}
                 {/* <PropsParent/> */}
-                <PropP/>
-                <ProDP/>
+                {/* <PropP/>
+                <ProDP/> */}
+
+
+            {/* 04_stateUplifting floder import     */}
+                <UpliftingParent/>
 
 
            {/* 09_ReactCss floder import */}
