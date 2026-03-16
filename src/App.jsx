@@ -22,6 +22,7 @@ import LifeCycleInFbc from "./AllTopics/11_LifeCycle/LifeCycleInFbc"
 import ContextProvider from "./AllTopics/06_Context/ContextProvider"
 import ContextParent from "./AllTopics/06_Context/ContextParent"
 import ControllerdFrom1 from "./AllTopics/07_Froms/ControllerdFrom1"
+import ControlledForms2 from "./AllTopics/07_Froms/ControllerdFrom2"
 
 
 
@@ -61,7 +62,8 @@ const App = () => {
                     </ContextProvider> */}
 
             {/* 07_From floder import */}
-                    <ControllerdFrom1/>
+                    {/* <ControllerdFrom1/> */}
+                    <ControlledForms2/>
 
                     
            {/* 09_ReactCss floder import */}
