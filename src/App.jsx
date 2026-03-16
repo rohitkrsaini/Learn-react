@@ -21,6 +21,7 @@ import { useState } from "react"
 import LifeCycleInFbc from "./AllTopics/11_LifeCycle/LifeCycleInFbc"
 import ContextProvider from "./AllTopics/06_Context/ContextProvider"
 import ContextParent from "./AllTopics/06_Context/ContextParent"
+import ControllerdFrom1 from "./AllTopics/07_Froms/ControllerdFrom1"
 
 
 
@@ -55,10 +56,14 @@ const App = () => {
 
             
             {/* 06_Context floder import */}
-                    <ContextProvider>
+                    {/* <ContextProvider>
                         <ContextParent/>
-                    </ContextProvider>
+                    </ContextProvider> */}
 
+            {/* 07_From floder import */}
+                    <ControllerdFrom1/>
+
+                    
            {/* 09_ReactCss floder import */}
                {/* <ReactCss/>
     
