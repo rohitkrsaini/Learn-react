@@ -23,6 +23,12 @@ import ContextProvider from "./AllTopics/06_Context/ContextProvider"
 import ContextParent from "./AllTopics/06_Context/ContextParent"
 import ControllerdFrom1 from "./AllTopics/07_Froms/ControllerdFrom1"
 import ControlledForms2 from "./AllTopics/07_Froms/ControllerdFrom2"
+import Todos from "./AllTopics/12_Fatch/Todos"
+import Products from "./AllTopics/12_Fatch/Products"
+import ReducerCounter from "./AllTopics/13_Reducer/ReducerCounter"
+import Users from "./AllTopics/14_CoustomHook/users"
+import ReducerTodo from "./AllTopics/13_Reducer/ReducerTodo"
+import UncontrolledForms from "./AllTopics/07_Froms/UnControllerdFrom"
 
 
 
@@ -63,13 +69,14 @@ const App = () => {
 
             {/* 07_From floder import */}
                     {/* <ControllerdFrom1/> */}
-                    <ControlledForms2/>
+                    {/* <ControlledForms2/> */}
+                    {/* <UncontrolledForms/> */}
 
                     
            {/* 09_ReactCss floder import */}
-               {/* <ReactCss/>
-    
-               <Navbar/> */}
+                     {/* <ReactCss/>
+                
+                     <Navbar/> */}
 
 
             {/* 
@@ -78,11 +85,21 @@ const App = () => {
                 {/* <TailwintsPratics1/> */}
 
             {/* 11_LifeCycle floder import     */}
-                {/* <button onClick={handleToggle} toggle me></button>
-                {toggle && <LifeCycleInCbc/>}
+                 {/* <button onClick={handleToggle}>toggle me</button>
+                  {toggle && <LifeCycleInCbc />} */}
 
-                <LifeCycleInFbc/> */}
+                {/* <LifeCycleInFbc/>  */}
 
+            {/* 12_Fatch floder import */}
+                    {/* <Todos /> */}
+                    {/* <Products/> */}
+
+            {/* 13_Reducer flosder import */}
+                   {/* <ReducerCounter/> */}
+                   {/* <ReducerTodo/> */}
+
+            {/* 14_CoustomHook floder import */}
+                   {/* <Users/> */}
 
     
             {/* Practics folder import */}
