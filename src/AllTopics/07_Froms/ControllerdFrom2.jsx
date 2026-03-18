@@ -2,6 +2,7 @@ import { useState } from "react";
 import UserTable from "./UserTable";
 
 const ControlledForms2 = () => {
+
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -14,24 +15,24 @@ const ControlledForms2 = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form Submitted");
-    console.log(formData);
+   // e.preventDefault();
 
-    // to get existing users from local storage, if users are present parse it else initialize with empty array []
     let users = JSON.parse(localStorage.getItem("users")) || [];
 
-    // create user data with id
-    let userData = { ...formData, id: Math.random() };
+    let userData = {
+      ...formData,
+      id: Math.floor(Math.random() * 100) + 1,
+    };
 
-    // add userData to users array
     users.push(userData);
 
-    // set users array to local storage after converting into json
     localStorage.setItem("users", JSON.stringify(users));
 
-    // clear input fields
-    setFormData({username:"",email:"",password:""})
+    setFormData({
+      username: "",
+      email: "",
+      password: "",
+    });
   };
 
   return (
@@ -40,6 +41,7 @@ const ControlledForms2 = () => {
       <p>Manage multiple input with single state</p>
 
       <form onSubmit={handleSubmit}>
+
         <input
           type="text"
           name="username"
@@ -48,8 +50,7 @@ const ControlledForms2 = () => {
           onChange={handleChange}
         />
 
-        <br />
-        <br />
+        <br /><br />
 
         <input
           type="text"
@@ -59,8 +60,7 @@ const ControlledForms2 = () => {
           onChange={handleChange}
         />
 
-        <br />
-        <br />
+        <br /><br />
 
         <input
           type="text"
@@ -70,13 +70,14 @@ const ControlledForms2 = () => {
           onChange={handleChange}
         />
 
-        <br />
-        <br />
+        <br /><br />
 
         <button>submit</button>
+
       </form>
 
-      {/* <UserTable/> */}
+      <UserTable />
+
     </div>
   );
 };
