@@ -106,12 +106,12 @@ const App = () => {
                    {/* <Users/> */}
 
             {/* 15_MemoAndCallback floder import */}
-                    <MemoExample/>
-                    <MemoChild/>
+                    {/* <MemoExample/>
+                    <MemoChild/> */}
 
 
             {/* 16_Roughting floder import*/}
-                   {/* <Dashbord/> */}
+                   <Dashbord/>
     
             {/* Practics folder import */}
 
