@@ -1,19 +1,20 @@
-import Home from "./Home"
-import About from "./About"
-import Nav from "./Nav"
-import { useState } from "react"
+import React from 'react'
+import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import Home from './Home'
+import About from './About'
+import Nav from './Nav'
 
-
-
-const Dashbord = ()=>{
-  const [path, setPath] = useState("/");
+ const Dashbord = () => {
   return (
     <div>
-      <Nav setPath={setPath} />
-
-      {path === "/" && <Home />}
-      {path === "/about" && <About />}
+        <BrowserRouter>
+        <Nav/>
+            <Routes>
+                <Route path='/' element={<Home/>}></Route>
+                <Route path='/about' element={<About/>}></Route>
+            </Routes>
+        </BrowserRouter>
     </div>
-  );
+  )
 }
 export default Dashbord
