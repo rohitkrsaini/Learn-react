@@ -17,11 +17,11 @@ import { useState } from "react"
 // import ProDP from "./AllTopics/03_Props/ProDP"
 // import UpliftingParent from "./AllTopics/04_StateUplifting/UpliftingParent"
 // import DrilingParents from "./AllTopics/05_propsDriling/DrilingParents"
-// import LifeCycleInCbc from "./AllTopics/11_LifeCycle/LifeCycleCbc"
+import LifeCycleInCbc from "./AllTopics/11_LifeCycle/LifeCycleCbc"
 
-// import LifeCycleInFbc from "./AllTopics/11_LifeCycle/LifeCycleInFbc"
-// import ContextProvider from "./AllTopics/06_Context/ContextProvider"
-// import ContextParent from "./AllTopics/06_Context/ContextParent"
+import LifeCycleInFbc from "./AllTopics/11_LifeCycle/LifeCycleInFbc"
+import ContextProvider from "./AllTopics/06_Context/ContextProvider"
+import ContextParent from "./AllTopics/06_Context/ContextParent"
  import ControllerdFrom1 from "./AllTopics/07_Froms/ControllerdFrom1"
 import ControlledForms2 from "./AllTopics/07_Froms/ControllerdFrom2"
 import Todos from "./AllTopics/12_Fatch/Todos"
@@ -33,6 +33,12 @@ import UncontrolledForms from "./AllTopics/07_Froms/UnControllerdFrom"
 import MemoChild from "./AllTopics/15_MemoAndCallback/MemoChild"
 import MemoExample from "./AllTopics/15_MemoAndCallback/MemoExample"
 import Dashbord from "./AllTopics/16_Routing/Dashbord"
+import ParentHOC from "./AllTopics/17_HOC/ParentHOC"
+import CrudApp from "./AllTopics/20_CrudApp/CrudApp"
+import Loader from "./AllTopics/20_CrudApp/Componets/loader/Loader"
+import VirtualisedList from "./AllTopics/19_Virtulization/VirtulizationList"
+import Routing2 from "./AllTopics/16_Routing/Routing2"
+
 
 
 
@@ -111,7 +117,21 @@ const App = () => {
 
 
             {/* 16_Roughting floder import*/}
-                   <Dashbord/>
+                   {/* <Dashbord/> */}
+                   <Routing2/>
+
+            {/* 17_HOC floder import */}
+                   {/* <ParentHOC/> */}
+
+            {/* 18_Reduex floder import */}
+                    {/* <ReducerCounter/>  */}
+
+            {/* 19_Virutulization floder import */}
+                    {/* <VirtualisedList/> */}
+            
+            {/* 20_CrudApp floder import */}
+                    {/* <CrudApp/> */}
+
     
             {/* Practics folder import */}
 
@@ -126,6 +146,8 @@ const App = () => {
             {/* Assiment folder import */}
 
                  {/* <StateTask1 /> */}
+
+                 {/* <Loader/> */}
         </>
     )
 }
