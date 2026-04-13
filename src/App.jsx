@@ -37,7 +37,7 @@ import ReduxCounter from "./AllTopics/18_Rdduex/ReduxCounter"
 // import ParentHOC from "./AllTopics/17_HOC/ParentHOC"
 // import CrudApp from "./AllTopics/20_CrudApp/CrudApp"
 // import Loader from "./AllTopics/20_CrudApp/Componets/loader/Loader"
-// import VirtualisedList from "./AllTopics/19_Virtulization/VirtulizationList"
+ import VirtualisedList from "./AllTopics/19_Virtulization/VirtulizationList"
 // import Routing2 from "./AllTopics/16_Routing/Routing2"
 
 
@@ -123,10 +123,10 @@ const App = () => {
                    {/* <ParentHOC/> */}
 
             {/* 18_Reduex floder import */}
-                    <ReduxCounter/>
+                    {/* <ReduxCounter/> */}
 
             {/* 19_Virutulization floder import */}
-                    {/* <VirtualisedList/> */}
+                    <VirtualisedList/>
             
             {/* 20_CrudApp floder import */}
                     {/* <CrudApp/> */}
